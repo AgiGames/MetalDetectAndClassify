@@ -10,11 +10,9 @@ This repository contains the implementation for metal detection and classificati
 
 > Out of these, ony first one step(s) are implemented so far.
 ---
-
-
-
+ 
 ## Before Continuing Reading
 To contribute to this project, you need to have a tensorflow gpu environment using Ananconda
 > The tutorial link for setting up a tensorflow gpu environment using anaconda is [here](https://youtu.be/QUjtDIalh0k?si=g_FBCRnNLLYPU-_F)
-
+ 
 ---
