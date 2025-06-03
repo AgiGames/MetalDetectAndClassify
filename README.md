@@ -37,3 +37,7 @@ All following sections will assume you have this step already done ✔️.
 ***NOTE: More data is needed for edge detection, so if anyone wants to collect image and annotate, feel free to do so.***
 
 ---
+
+# II: Segmentation 📝
+Given the image with now the detected labels, we must now segment all enclosed areas.
+> We should implement this next, and need help for this.
