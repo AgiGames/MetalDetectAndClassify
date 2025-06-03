@@ -29,4 +29,11 @@ All following sections will assume you have this step already done ✔️.
 
 ## We Feed the New Labels and Images to the CNN
 > The architecture of the CNN can be viewed in ```MetalEdge.ipynb```
-### Training Loss
+### Training Loss 📉
+![Smoothed Training Loss Curve](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/edge_detection/results/smoothed_training_loss.png)
+### Prediction Results
+![Prediction Result](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/edge_detection/results/test_results_1.png)
+
+***NOTE: More data is needed for edge detection, so if anyone wants to collect image and annotate, feel free to do so***
+
+---
