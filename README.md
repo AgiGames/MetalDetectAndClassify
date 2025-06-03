@@ -34,6 +34,6 @@ All following sections will assume you have this step already done ✔️.
 ### Prediction Results
 ![Prediction Result](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/edge_detection/results/test_results_1.png)
 
-***NOTE: More data is needed for edge detection, so if anyone wants to collect image and annotate, feel free to do so***
+***NOTE: More data is needed for edge detection, so if anyone wants to collect image and annotate, feel free to do so.***
 
 ---
