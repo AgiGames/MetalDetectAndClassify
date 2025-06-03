@@ -24,6 +24,7 @@ All following sections will assume you have this step already done ✔️.
 - Take the fourier transform for each grid cell in-place.
 
   Final image with label:
+
   ![Labelled Image for Edge Detection](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/readme_stuff/edge_detection_labelled_image.png)
 
 ## We Feed the New Labels and Images to the CNN
