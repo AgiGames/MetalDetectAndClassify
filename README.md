@@ -14,5 +14,12 @@ This repository contains the implementation for metal detection and classificati
 ## Before Continuing Reading 📖
 To contribute to this project, you need to have a tensorflow gpu environment using Ananconda
 > The tutorial link for setting up a tensorflow gpu environment using anaconda is [here](https://youtu.be/QUjtDIalh0k?si=g_FBCRnNLLYPU-_F)
+All following sections will assume you have this step already done ✔️.
  
 ---
+
+# I: Edge Detection
+- Divide image into 50x50 grid.
+- Label the grid cells as ```1``` if edge exists in grid cell, ```0``` otherwise.
+- Take the fourier transform for each grid cell in-place.
+- Final image with label:
