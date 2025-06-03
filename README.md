@@ -20,7 +20,7 @@ All following sections will assume you have this step already done ✔️.
 
 # I: Edge Detection 🕵️
 - Divide image into 50x50 grid.
-- Label the grid cells as ```1``` if edge exists in grid cell, ```0``` otherwise.
+- Label the grid cells as ```1``` if edge exists in grid cell, ```0``` otherwise (refer ```edge_annotator.py```).
 - Take the fourier transform for each grid cell in-place.
 
   Final image with label:
