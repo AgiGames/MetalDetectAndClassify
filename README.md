@@ -23,7 +23,7 @@ All following sections will assume you have this step already done ✔️.
 - Label the grid cells as ```1``` if edge exists in grid cell, ```0``` otherwise.
 - Take the fourier transform for each grid cell in-place.
 - Final image with label:
-- ![Labelled Image for Edge Detection](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/readme_stuff/edge_detection_labelled_image.png)
+  ![Labelled Image for Edge Detection](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/readme_stuff/edge_detection_labelled_image.png)
 
 ## We Feed the New Labels and Images to the CNN
 > The architecture of the CNN can be viewed in ```MetalEdge.ipynb```
