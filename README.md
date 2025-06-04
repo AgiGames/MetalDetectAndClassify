@@ -29,6 +29,7 @@ All following sections will assume you have this step already done ✔️.
 
 ## We Feed the New Labels and Images to the CNN
 > The architecture of the CNN can be viewed in ```MetalEdge.ipynb```
+Use ```ds_maker.py``` to make a tensorflow dataset from the annotated images to train CNN.
 ### Training Loss 📉
 ![Smoothed Training Loss Curve](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/edge_detection/results/smoothed_training_loss.png)
 ### Prediction Results
