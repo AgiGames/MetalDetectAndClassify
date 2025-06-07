@@ -48,7 +48,7 @@ This will simplify the task from running the connected components algorithm on t
 
 Consider the following image:
 
-![](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/readme_stuff/grid_snippet.png)
+![](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/readme_stuff/snippet.png)
 
 We see a snippet of the 50x50 grid, with the cells that contains an edge being marked as red. We see the edge divides the image into two components, one component to the left, the other to the right. Thus, after running [connected components algorithm](https://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/) (using [4 adjacency neighbourhood](https://www.imageprocessingplace.com/downloads_V3/root_downloads/tutorials/contour_tracing_Abeer_George_Ghuneim/connectivity.html)), the image now is labeled as such:
 
