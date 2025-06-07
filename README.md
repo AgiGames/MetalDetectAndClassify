@@ -44,6 +44,7 @@ Given the image with now the detected labels, we must now segment all enclosed a
 
 Now, since we have divided the image into a 50x50 grid, and each grid cell can either be an edge or not an edge, (refer prediction results, you can clearly see that the image has been divided into a 50x50 grid, and that if any grid cell contains an edge it is marked with the red colour), we can now run the connected components algorithm on the remaining grid cells to segment it.
 
-This will simplify the task from running the connected components algorithm on the original image on all the pixels. We do this as follows:
+This will simplify the task from running the connected components algorithm on the original image on all the pixels.
 
-![Consider the following image:](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/readme_stuff/grid_snippet.png)
+Consider the following image:
+![](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/readme_stuff/grid_snippet.png)
