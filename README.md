@@ -46,7 +46,7 @@ Now, since we have divided the image into a 50x50 grid, and each grid cell can e
 
 This will simplify the task from running the connected components algorithm on the original image on all the pixels.
 
-Consider the following image:
+## Consider the following image:
 
 ![](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/readme_stuff/snippet.png)
 
@@ -54,4 +54,11 @@ We see a snippet of the 50x50 grid, with the cells that contains an edge being m
 
 ![](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/readme_stuff/labelled_snippet.png)
 
-Where, R means 'Region'. Now we segment and save all the regions in the image.
+> Where, R means 'Region'.
+## Now we segment and save all the regions in the image.
+
+![](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/readme_stuff/region_one.png)
+
+![](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/readme_stuff/region_two.png)
+
+We repeat this for all other regions that may exist in the image.
