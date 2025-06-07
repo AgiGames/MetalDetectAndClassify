@@ -41,4 +41,5 @@ Use ```ds_maker.py``` to make a tensorflow dataset from the annotated images to 
 
 # II: Segmentation 📝
 Given the image with now the detected labels, we must now segment all enclosed areas.
-> We should implement this next, and need help for this.
+Now, since we have divided the image into a 50x50 grid, and each grid cell can either be an edge or not an edge, (refer prediction results, you can clearly see that the image has been divided into a 50x50 grid, and that if any grid cell contains an edge it is marked with the red colour). We now run the connected components algorithm on the remaining grid cells to segment it. This will simplify the task from running the connected components algorithm on the original image. We do this as follows:
+Consider the following image:
