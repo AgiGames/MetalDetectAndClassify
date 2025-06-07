@@ -46,4 +46,4 @@ Now, since we have divided the image into a 50x50 grid, and each grid cell can e
 
 This will simplify the task from running the connected components algorithm on the original image on all the pixels. We do this as follows:
 
-Consider the following image:
+![Consider the following image:](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/readme_stuff/grid_snippet.png)
