@@ -64,3 +64,6 @@ We see a snippet of the 50x50 grid, with the cells that contains an edge being m
 ![](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/readme_stuff/region_two.png)
 
 We repeat this for all other regions that may exist in the image.
+
+## Results:
+[](https://github.com/AgiGames/MetalDetectAndClassify/blob/main/segmentation/new/results/1th%20image's%20segmented%20images.png)
