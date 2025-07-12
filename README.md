@@ -8,7 +8,7 @@ This repository contains the implementation for metal detection and classificati
 - Classification
 - Sending Coordinates for Real World Use
 
-> Out of these, only first one step(s) are implemented so far. 🤔
+> Out of these, only first two step(s) are implemented so far. 🤔
 ---
  
 ## Before Continuing Reading 📖
