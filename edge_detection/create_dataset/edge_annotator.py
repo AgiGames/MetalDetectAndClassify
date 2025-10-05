@@ -8,7 +8,7 @@ num_grids = 50 # num grids per row (there will be 50 rows)
 patch_size = 250 # the size to which each grid cell will be segmented and resized to
 image_size = 750
 tfds_storage_directory = "tfds_storage" # the folder where images and labels will be stored
-images_directory = "images" # the folder where images will be fetched for annotation
+images_directory = "images_2" # the folder where images will be fetched for annotation
 
 # make this directories at the start just in case
 os.makedirs(os.path.join(tfds_storage_directory, "images"), exist_ok=True)
@@ -57,9 +57,9 @@ class AnnotatorApp:
         # if we have already annotated all images
         if self.current_image_index >= len(self.image_list):
             # notify the user and close the app
-            messagebox.showinfo("All Images Annotated", "Closing Application")
+            # messagebox.showinfo("All Images Annotated", "Closing Application")
             print("All images annotated... closing application.")
-            self.root.after(2000, self.root.destroy)
+            self.root.destroy()  # close the app
             return
         
         # image path of the current image
@@ -83,9 +83,9 @@ class AnnotatorApp:
         # if the annotation has just started
         if self.current_image_index == 0:
             # notify the user on how to use the app
-            messagebox.showinfo("Controls", "Right Click -> New Line\nLeft Click -> Continue Line")
-            print("All images annotated... closing application.")
-
+            messagebox.showinfo("Controls", "Right Click -> New Line\nLeft Click -> Continue Line\n Control + Z -> Undo Last Line")
+            self.root.focus_set()
+            
     def load_next_image_to_canvas(self):
 
         # segment the current image based on annotation
