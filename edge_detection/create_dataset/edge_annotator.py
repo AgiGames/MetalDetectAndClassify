@@ -43,13 +43,13 @@ class AnnotatorApp:
         self.line_coords = []
 
         # add an action listener for enter button which when pressed will load the next image to canvas
-        self.root.bind("<Return>", lambda event: self.load_next_image_to_canvas())
+        self.root.bind_all("<Return>", lambda event: self.load_next_image_to_canvas())
 
         self.line_ids = []  # to store canvas IDs for undoing
         self.line_segments = []  # to store coordinate pairs (x1, y1, x2, y2) for undo
 
         # action listener for undo (control + z)
-        self.root.bind("<Control-z>", lambda event: self.undo_last_line())
+        self.root.bind_all("<Control-z>", lambda event: self.undo_last_line())
 
 
     def load_image_to_canvas(self):
@@ -84,6 +84,7 @@ class AnnotatorApp:
         if self.current_image_index == 0:
             # notify the user on how to use the app
             messagebox.showinfo("Controls", "Right Click -> New Line\nLeft Click -> Continue Line\n Control + Z -> Undo Last Line")
+            self.root.focus_force()
             self.root.focus_set()
             
     def load_next_image_to_canvas(self):
